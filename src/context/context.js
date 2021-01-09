@@ -4,4 +4,10 @@ const initialState = [];
 
 export const ExpenseTrackerContext = createContext(initialState);
 
-export const Provider = ()
+export const Provider = ({ children }) => {
+    return (
+        <ExpenseTrackerContext.Provider>
+
+            </ExpenseTrackerContext.Provider>
+    );
+};
