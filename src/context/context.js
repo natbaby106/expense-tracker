@@ -7,7 +7,11 @@ const initialState = [];
 export const ExpenseTrackerContext = createContext(initialState);
 
 export const Provider = ({ children }) => {
-    const [state, dispatch] = useReducer(reducer, intialState);
+    const [transactions, dispatch] = useReducer(contextReducer, intialState);
+
+    const deleteTransactions = () => {
+        
+    }
 
     return (
         <ExpenseTrackerContext.Provider value={{ appName: 'Expense Tracker' }}>
