@@ -17,7 +17,7 @@ export const Provider = ({ children }) => {
         <ExpenseTrackerContext.Provider value={{ 
             deleteTransaction, 
             addTransaction 
-         }}>
+        }}>
             {children}
         </ExpenseTrackerContext.Provider>
     );
