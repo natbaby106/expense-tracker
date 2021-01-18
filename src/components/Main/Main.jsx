@@ -8,6 +8,8 @@ import List from './List/List';
 
 const Main = () => {
     const classes = useStyles();
+
+    console.log('Hello from the main page'); 
     
     return (
         <Card className={classes.root}>
