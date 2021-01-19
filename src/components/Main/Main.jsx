@@ -28,7 +28,7 @@ const Main = () => {
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <List />
-                        <Button variant="contained" color="primary" >
+                        <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
                         Disable elevation
                         </Button>
                     </Grid>
