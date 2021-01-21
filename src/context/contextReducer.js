@@ -9,6 +9,7 @@ const contextReducer = (state, action) => {
             return transactions;
         case 'ADD_TRANSACTION':
             transactions = [action.payload, ...state];
+            console.log('transactions', transactions);
 
             return transactions;
         default:
