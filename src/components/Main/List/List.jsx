@@ -36,6 +36,9 @@ const List = () => {
                             <IconButton edge='end' aria-label='delete' onClick=''> 
                                 <MoneyOff />
                             </IconButton>
+                            <IconButton edge='end' aria-label='delete' onClick=''> 
+                                <MoneyOff />
+                            </IconButton>
                         </ListItemSecondaryAction>
                     </ListItem>
                 </Slide>
