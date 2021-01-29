@@ -13,6 +13,7 @@ const List = () => {
         { id: 3, type: 'Income', category: 'Business', amount: 150, date: 'Wed Dec 18' },
         { id: 4, type: 'Income', category: 'Business', amount: 200, date: 'Wed Dec 18' },
         { id: 5, type: 'Income', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
+        { id: 6, type: 'Expense', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
    
     ];
 
