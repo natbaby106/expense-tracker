@@ -17,6 +17,8 @@ const List = () => {
         { id: 7, type: 'Expense', category: 'Food', amount: 150, date: 'Wed Dec 18' },
         { id: 8, type: 'Expense', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
         { id: 9, type: 'Expense', category: 'Food', amount: 150, date: 'Wed Dec 18' },
+        { id: 10, type: 'Expense', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
+        { id: 11, type: 'Expense', category: 'Fd', amount: 150, date: 'Wed Dec 18' },
     ];
 
     console.log('all transactns', transactions);
