@@ -49,7 +49,7 @@ const List = () => {
                                 <Delete />
                             </IconButton>
                             <IconButton edge='end' aria-label='delete' onClick=''> 
-                                <Delete />
+                                < MoneyOff />
                             </IconButton>
                         </ListItemSecondaryAction>
                     </ListItem>
