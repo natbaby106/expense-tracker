@@ -14,8 +14,6 @@ const List = () => {
         { id: 4, type: 'Income', category: 'Business', amount: 200, date: 'Wed Dec 18' },
     ];
 
-    console.log('all transactns', transactions);
-
     return (
         <MUIList dense={false} className={classes.list}>
             {transactions.map((transaction) => (
@@ -30,9 +28,6 @@ const List = () => {
                         <ListItemSecondaryAction>
                             <IconButton edge='end' aria-label='delete' onClick=''> 
                                 <Delete />
-                            </IconButton>
-                            <IconButton edge='end' aria-label='delete' onClick=''> 
-                                <MoneyOff />
                             </IconButton>
                             <IconButton edge='end' aria-label='delete' onClick=''> 
                                 <MoneyOff />
