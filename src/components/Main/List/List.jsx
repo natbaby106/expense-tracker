@@ -12,20 +12,12 @@ const List = () => {
         { id: 2, type: 'Expense', category: 'Pets', amount: 50, date: 'Tue Jan 05' },
         { id: 3, type: 'Income', category: 'Business', amount: 150, date: 'Wed Dec 18' },
         { id: 4, type: 'Income', category: 'Business', amount: 200, date: 'Wed Dec 18' },
-        { id: 5, type: 'Income', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
-        { id: 6, type: 'Expense', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
-        { id: 7, type: 'Expense', category: 'Food', amount: 150, date: 'Wed Dec 18' },
-        { id: 8, type: 'Expense', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
-        { id: 9, type: 'Expense', category: 'Food', amount: 150, date: 'Wed Dec 18' },
-        { id: 10, type: 'Expense', category: 'Pets', amount: 200, date: 'Wed Dec 18' },
-        { id: 11, type: 'Expense', category: 'Fd', amount: 150, date: 'Wed Dec 18' },
     ];
 
     console.log('all transactns', transactions);
 
     return (
         <MUIList dense={false} className={classes.list}>
-            {console.log('all transactns', transactions)}
             {transactions.map((transaction) => (
                 <Slide direction='down' in mountOnEnter unmountOnExit key={transaction.id}>
                     <ListItem>
@@ -44,12 +36,6 @@ const List = () => {
                             </IconButton>
                             <IconButton edge='end' aria-label='delete' onClick=''> 
                                 <MoneyOff />
-                            </IconButton>
-                            <IconButton edge='end' aria-label='delete' onClick=''> 
-                                <Delete />
-                            </IconButton>
-                            <IconButton edge='end' aria-label='delete' onClick=''> 
-                                < MoneyOff />
                             </IconButton>
                         </ListItemSecondaryAction>
                     </ListItem>
