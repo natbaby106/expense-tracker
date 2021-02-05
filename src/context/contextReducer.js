@@ -10,6 +10,10 @@ const contextReducer = (state, action) => {
             transactions = [action.payload, ...state];
 
             return transactions;
+        case 'EDIT_TRANSACTION':
+                // transactions = [action.payload, ...state];
+    
+            return transactions;
         default:
             return state;
     };
