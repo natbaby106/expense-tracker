@@ -43,6 +43,10 @@ const Form = () => {
                 <TextField type='date' label='Date' fullWidth />
             </Grid>
             <Button className={classes.button} variant='outlined' color='primary' fullWidth>Create</Button>
+            <Grid item xs={6}>
+                <TextField type='date' label='Date' fullWidth />
+            </Grid>
+            <Button className={classes.button} variant='outlined' color='primary' fullWidth>Create</Button>
         </Grid>
     );
 };
