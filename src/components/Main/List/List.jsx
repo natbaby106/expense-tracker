@@ -14,6 +14,8 @@ const List = () => {
         { id: 4, type: 'Income', category: 'Business', amount: 200, date: 'Wed Dec 18' },
     ];
 
+    console.log("these are the transactions", transactions);
+
     return (
         <MUIList dense={false} className={classes.list}>
             {transactions.map((transaction) => (
