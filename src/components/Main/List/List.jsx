@@ -40,6 +40,15 @@ const List = () => {
                                 <MoneyOff />
                             </IconButton>
                         </ListItemSecondaryAction>
+                        <ListItemText primary={transaction.category} secondary={`$${transaction.amount}- ${transaction.date}`} />
+                        <ListItemSecondaryAction>
+                            <IconButton edge='end' aria-label='delete' onClick=''> 
+                                <Delete />
+                            </IconButton>
+                            <IconButton edge='end' aria-label='delete' onClick=''> 
+                                <MoneyOff />
+                            </IconButton>
+                        </ListItemSecondaryAction>
                     </ListItem>
                 </Slide>
             ))}
