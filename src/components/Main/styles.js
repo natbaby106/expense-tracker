@@ -20,5 +20,6 @@ export default makeStyles((theme) => ({
   },
   divider: {
     margin: '20px 0',
+    backgroundColor: 'white'
   },
 }));
