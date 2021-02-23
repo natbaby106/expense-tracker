@@ -10,5 +10,6 @@ export default makeStyles (() => ({
     expense: {
         borderBottom: '10px solid rgba(255, 0, 0.5)',
         padding: "10px",
+        backgroundColor: "red",
     }
 }));

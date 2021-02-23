@@ -10,7 +10,7 @@ export default makeStyles(() => ({
   button: {
     marginTop: '20px',
     padding: 0,
-    margin: '5px'
-
+    margin: '5px',
+    backgroundColor: "blue"
   },
 }));
