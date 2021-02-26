@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
     height: 0,
     paddingTop: '56.25%', // 16:9
     backgroundColor: "red",
-    margin: '5px'
+    marginTop: '5px'
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -19,7 +19,7 @@ export default makeStyles((theme) => ({
   },
   cardContent: {
     paddingTop: 0,
-    backgroundColor: red,
+    backgroundColor: 'red',
   },
   divider: {
     margin: '20px 0',
