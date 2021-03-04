@@ -13,12 +13,6 @@ const Details = ({ title}) => {
             <CardContent>
                 <Typography variant='h5'>$50</Typography>
                 <Typography variant='h5'>$50</Typography>
-                <Typography variant='h5'>$50</Typography>
-                <Typography variant='h5'>$150</Typography>
-                <Typography variant='h5'>$150</Typography>
-                <Typography variant='h5'>$50</Typography>
-                <Typography variant='h5'>$50</Typography>
-                <Typography variant='h5'>$150</Typography>
                 {/* <Doughnut data='DATA' /> */}
             </CardContent>
         </Card>
