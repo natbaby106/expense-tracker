@@ -9,9 +9,11 @@ export default makeStyles(() => ({
     backgroundColor: "red",
   },
   button: {
-    marginTop: '20px',
     padding: 0,
     margin: '5px',
-    backgroundColor: "blue"
+    backgroundColor: "blue",
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: '-10px',
   },
 }));
