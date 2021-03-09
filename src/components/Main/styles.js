@@ -19,6 +19,7 @@ export default makeStyles((theme) => ({
     transform: 'rotate(180deg)',
   },
   cardContent: {
+    maxHeight: '350px',
     paddingTop: 0,
     backgroundColor: 'red',
   },
