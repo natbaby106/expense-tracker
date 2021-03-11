@@ -17,4 +17,10 @@ export default makeStyles(() => ({
     justifyContent: 'center',
     marginBottom: '-10px',
   },
+    sav: {
+        maxHeight: '350px',
+        borderBottom: '10px solid rgba(255, 0, 0.5)',
+        padding: "10px",
+        backgroundColor: "red",
+    }
 }));

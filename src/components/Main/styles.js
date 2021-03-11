@@ -28,4 +28,10 @@ export default makeStyles((theme) => ({
     backgroundColor: "red",
     marginTop: '5px'
   },
+  sav: {
+      maxHeight: '350px',
+      borderBottom: '10px solid rgba(255, 0, 0.5)',
+      padding: "10px",
+      backgroundColor: "red",
+  }
 }));
