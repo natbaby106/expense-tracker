@@ -13,5 +13,11 @@ export default makeStyles (() => ({
         borderBottom: '10px solid rgba(255, 0, 0.5)',
         padding: "10px",
         backgroundColor: "red",
+    },
+    sav: {
+        maxHeight: '350px',
+        borderBottom: '10px solid rgba(255, 0, 0.5)',
+        padding: "10px",
+        backgroundColor: "red",
     }
 }));
