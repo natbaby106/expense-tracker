@@ -28,6 +28,11 @@ export default makeStyles((theme) => ({
     backgroundColor: "red",
     marginTop: '5px'
   },
+  divider2: {
+    margin: '20px 0',
+    backgroundColor: "blue",
+    marginTop: '15px'
+  },
   sav: {
       maxHeight: '350px',
       borderBottom: '10px solid rgba(255, 0, 0.5)',
