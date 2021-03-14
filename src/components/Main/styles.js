@@ -17,11 +17,13 @@ export default makeStyles((theme) => ({
   },
   expandOpen: {
     transform: 'rotate(180deg)',
+    marginTop: '5px'
   },
   cardContent: {
     maxHeight: '350px',
     paddingTop: 0,
     backgroundColor: 'red',
+    marginTop: '5px'
   },
   divider: {
     margin: '20px 0',
