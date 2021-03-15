@@ -17,7 +17,11 @@ export default makeStyles((theme) => ({
   },
   expandOpen: {
     transform: 'rotate(180deg)',
-    marginTop: '5px'
+    marginTop: '5px',
+    color: '#fff',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
   },
   cardContent: {
     maxHeight: '350px',
