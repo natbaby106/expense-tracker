@@ -11,6 +11,12 @@ export default makeStyles((theme) => ({
     color: theme.palette.getContrastText(red[500]),
     backgroundColor: blue[500],
   },
+  paperContainer: {
+    color: theme.palette.getContrastText(red[500]),
+    maxHeight: '350px',
+    backgroundColor: "red",
+    marginTop: '5px',
+  },
   list: {
     maxHeight: '350px',
     backgroundColor: "red",
