@@ -13,7 +13,6 @@ const Form = () => {
                     ... 
                 </Typography>
                 <Typography variant='h5'>$50</Typography>
-                <Typography variant='h5'>$50</Typography>
             </Grid>
             <Grid item xs={12}>
                 <Typography align='center' variant='subtitle2' gutterBottom>
@@ -33,28 +32,7 @@ const Form = () => {
                 <TextField type='date' label='Date' fullWidth />
             </Grid>
             <Button className={classes.button} variant='outlined' color='primary' fullWidth>Create</Button>
-            <Grid item xs={6}>
-                <FormControl fullWidth>
-                    <InputLabel>Category</InputLabel>
-                    <Select>
-                        <MenuItem value='Business'>Business</MenuItem>
-                        <MenuItem value='Salary'>Salary</MenuItem>
-                    </Select>
-                </FormControl>
-            </Grid>
-            <Grid item xs={6}>
-                <TextField type='number' label='Amount' fullWidth />
-            </Grid>
-            <Button className={classes.button} variant='outlined' color='primary' fullWidth>Create</Button>
-            <Grid item xs={6}>
-                <FormControl fullWidth>
-                    <InputLabel>Category</InputLabel>
-                    <Select>
-                        <MenuItem value='Business'>Business</MenuItem>
-                        <MenuItem value='Salary'>Salary</MenuItem>
-                    </Select>
-                </FormControl>
-            </Grid>
+            
             
             <Grid item xs={6}>
                 <TextField type='number' label='Amount' fullWidth />
