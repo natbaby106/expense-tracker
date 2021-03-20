@@ -9,9 +9,7 @@ const List = () => {
 
     const transactions = [
         { id: 1, type: 'Income', category: 'Salary', amount: 50, date: 'Tue Jan 05' },
-        { id: 2, type: 'Expense', category: 'Pets', amount: 50, date: 'Tue Jan 05' },
-        { id: 3, type: 'Income', category: 'Business', amount: 150, date: 'Wed Dec 18' },
-        { id: 4, type: 'Income', category: 'Business', amount: 200, date: 'Wed Dec 18' },
+        { id: 2, type: 'Expense', category: 'Business', amount: 200, date: 'Wed Dec 18' },
     ];
 
     console.log("these are the transactions", transactions);
