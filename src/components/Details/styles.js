@@ -21,5 +21,12 @@ export default makeStyles (() => ({
         padding: "10px",
         backgroundColor: "red",
         marginTop: '5px'
+    },
+    delet: {
+        maxHeight: '450px',
+        borderBottom: '10px solid rgba(255, 0, 0.5)',
+        padding: "15px",
+        backgroundColor: "red",
+        marginTop: '5px'
     }
 }));
