@@ -14,11 +14,6 @@ const Form = () => {
                 </Typography>
                 <Typography variant='h5'>$50</Typography>
             </Grid>
-            <Grid item xs={12}>
-                <Typography align='center' variant='subtitle2' gutterBottom>
-                    ... 
-                </Typography>
-            </Grid>
             <Grid item xs={6}>
                 <FormControl fullWidth>
                     <InputLabel>Category</InputLabel>
@@ -27,15 +22,6 @@ const Form = () => {
                         <MenuItem value='Salary'>Salary</MenuItem>
                     </Select>
                 </FormControl>
-            </Grid>
-            <Grid item xs={6}>
-                <TextField type='date' label='Date' fullWidth />
-            </Grid>
-            <Button className={classes.button} variant='outlined' color='primary' fullWidth>Create</Button>
-            
-            
-            <Grid item xs={6}>
-                <TextField type='number' label='Amount' fullWidth />
             </Grid>
             <Grid item xs={6}>
                 <TextField type='date' label='Date' fullWidth />
