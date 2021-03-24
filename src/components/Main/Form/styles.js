@@ -9,6 +9,13 @@ export default makeStyles(() => ({
     padding: '5px',
     backgroundColor: "red",
   },
+  expense: {
+      maxHeight: '350px',
+      borderBottom: '10px solid rgba(255, 0, 0.5)',
+      padding: "10px",
+      backgroundColor: "red",
+      marginTop: '5px'
+  },
   button: {
     padding: 0,
     margin: '5px',
