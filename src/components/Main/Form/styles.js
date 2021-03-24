@@ -24,6 +24,13 @@ export default makeStyles(() => ({
     justifyContent: 'center',
     marginBottom: '-10px',
   },
+  button2: {
+    margin: '15px',
+    backgroundColor: "red",
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: '-10px',
+  },
     sav: {
         maxHeight: '350px',
         borderBottom: '10px solid rgba(255, 0, 0.5)',
