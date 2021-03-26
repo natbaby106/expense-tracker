@@ -24,12 +24,11 @@ export default makeStyles(() => ({
     justifyContent: 'center',
     marginBottom: '-10px',
   },
-  button2: {
+  cancelbutton: {
     margin: '15px',
     backgroundColor: "red",
-    display: 'flex',
     justifyContent: 'center',
-    marginBottom: '-10px',
+    marginBottom: '5px',
   },
     sav: {
         maxHeight: '350px',
