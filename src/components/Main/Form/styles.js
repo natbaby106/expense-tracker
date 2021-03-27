@@ -36,7 +36,7 @@ export default makeStyles(() => ({
         padding: "10px",
         backgroundColor: "red",
     },
-    delet: {
+    delete: {
         maxHeight: '250px',
         borderBottom: '10px solid rgba(255, 0, 0.5)',
         padding: "15px",
