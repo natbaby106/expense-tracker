@@ -32,6 +32,9 @@ const Main = () => {
                         <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
                         Disable elevation
                         </Button>
+                        <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
+                                <MoneyOff />
+                            </Avatar>
                     </Grid>
                 </Grid>
             </CardContent>
