@@ -39,6 +39,17 @@ const List = () => {
                             </IconButton>
                         </ListItemSecondaryAction>
                     </ListItem>
+                    <CardContent>
+                <Typography align='center' variant='h5'>Total Balance $100</Typography>
+                <Typography variant='subtitle1' style={{lineHeight: '1.5em', marginTop: '20px'}}>
+                    {/* InfoCard... */}
+                    Try saying: Add income for $100in Category Salary for Monday ...
+                    Changing what it says here!!
+                    this is wh
+                </Typography>
+                <Divider />
+                <Form />
+            </CardContent>
                 </Slide>
             ))}
         </MUIList>
