@@ -18,7 +18,7 @@ export default makeStyles((theme) => ({
     marginTop: '5px',
   },
   list: {
-    maxHeight: '350px',
+    maxHeight: '460px',
     backgroundColor: "red",
     marginTop: '5px',
     color: '#fff',
