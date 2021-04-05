@@ -17,6 +17,13 @@ export default makeStyles((theme) => ({
     backgroundColor: "red",
     marginTop: '5px',
   },
+  avatarContainer: {
+    color: theme.palette.getContrastText(red[500]),
+    maxHeight: '350px',
+    backgroundColor: "red",
+    marginTop: '5px',
+  },
+
   list: {
     maxHeight: '460px',
     backgroundColor: "red",
