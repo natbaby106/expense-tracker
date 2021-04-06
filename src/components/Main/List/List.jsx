@@ -24,11 +24,6 @@ const List = () => {
                                 <MoneyOff />
                             </Avatar>
                         </ListItemAvatar>
-                        <ListItemAvatar>
-                            <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
-                                <MoneyOff />
-                            </Avatar>
-                        </ListItemAvatar>
                         <ListItemText primary={transaction.category} secondary={`$${transaction.amount}- ${transaction.date}`} />
                         <ListItemSecondaryAction>
                             <IconButton edge='end' aria-label='delete' onClick=''> 
@@ -41,7 +36,6 @@ const List = () => {
                     </ListItem>
                     <CardContent>
                 <Typography align='center' variant='h5'>Total Balance $100</Typography>
-                <Divider />
                 <Form />
             </CardContent>
                 </Slide>
