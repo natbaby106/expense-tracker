@@ -46,6 +46,7 @@ const Main = () => {
                     Changing what it says here!!
                     this is wh
                 </Typography>
+                <h1>Monthly expenses</h1>
                 <Divider />
                 <Form />
             </CardContent>
