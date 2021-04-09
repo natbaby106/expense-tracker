@@ -19,6 +19,8 @@ const App = () => {
                 </Grid>
                 <Grid item xs={12} sm={4}>
                     <Details title="Expense"/>
+                    <h1>Monthly expenses</h1>
+                <Typography align='center' variant='h5'>Total Balance $100</Typography>
                 </Grid>
             </Grid>           
         </div>
