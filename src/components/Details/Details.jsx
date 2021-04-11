@@ -31,7 +31,7 @@ const Details = ({ title}) => {
                             </Avatar>
                     </Grid>
                 </Grid>
-                {/* <Doughnut data='DATA' /> */}
+                <Doughnut data='DATA' />
             </CardContent>
         </Card>
     );

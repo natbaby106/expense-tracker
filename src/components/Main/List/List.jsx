@@ -35,6 +35,8 @@ const List = () => {
                     <CardContent>
                 <Typography align='center' variant='h5'>Total Balance $100</Typography>
                 <Form />
+                <Doughnut data='DATA' />
+
             </CardContent>
                 </Slide>
             ))}

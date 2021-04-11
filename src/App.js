@@ -16,6 +16,8 @@ const App = () => {
                 </Grid>
                 <Grid item xs={12} sm={3}>
                     <Main />
+                    <Doughnut data='DATA' />
+
                 </Grid>
                 <Grid item xs={12} sm={4}>
                     <Details title="Expense"/>
