@@ -16,6 +16,7 @@ const Main = () => {
             <CardHeader title='Expense Tracker' subheader='Powered by Speechly' />   
             <CardContent>
             <h1>Monthly expenses</h1>
+            </Slide>
                 <Typography align='center' variant='h5'>Total Balance $100</Typography>
                 <Typography variant='subtitle1' style={{lineHeight: '1.5em', marginTop: '20px'}}>
                     {/* InfoCard... */}

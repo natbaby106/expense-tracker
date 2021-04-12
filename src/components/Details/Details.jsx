@@ -31,6 +31,7 @@ const Details = ({ title}) => {
                             </Avatar>
                     </Grid>
                 </Grid>
+                </Slide>
                 <Doughnut data='DATA' />
             </CardContent>
         </Card>
