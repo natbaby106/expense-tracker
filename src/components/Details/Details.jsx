@@ -13,7 +13,9 @@ const Details = ({ title}) => {
             <CardContent>
                 <Typography variant='h5'>$50</Typography>
                 <h1>Monthly expenses</h1>
-                <Typography align='center' variant='h5'>Total Balance $100</Typography>
+                <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
+                                <MoneyOff />
+                            </Avatar>
                 <Typography variant='subtitle1' style={{lineHeight: '3.5em', marginTop: '20px'}}>
                     {/* InfoCard... */}
                     Try saying: Add income for $100in Category Salary for Monday ...

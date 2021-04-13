@@ -18,14 +18,11 @@ const Main = () => {
             <h1>Monthly expenses</h1>
             </Slide>
                 <Typography align='center' variant='h5'>Total Balance $100</Typography>
-                <Typography variant='subtitle1' style={{lineHeight: '1.5em', marginTop: '20px'}}>
+                <Typography variant='subtitle1' style={{lineHeight: '2.5em', marginTop: '20px'}}>
                     {/* InfoCard... */}
                     Try saying: Add income for $100in Category Salary for Monday ...
-                    Changing what it says here!!
-                    this is wh
                 </Typography>
                 <Divider />
-                <Form />
             </CardContent>
             <CardContent className={classes.cardContent}>
                 <Grid container spacing={2}>
