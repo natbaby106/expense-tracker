@@ -16,12 +16,10 @@ const Details = ({ title}) => {
                 <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
                                 <MoneyOff />
                             </Avatar>
-                <Typography variant='subtitle1' style={{lineHeight: '3.5em', marginTop: '20px'}}>
-                    {/* InfoCard... */}
+                <Typography style={{marginTop: '20px'}}>
                     Try saying: Add income for $100in Category Salary for Monday ...
                     Changing what it says here!!
                 </Typography>
-                <Divider />
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <List />
