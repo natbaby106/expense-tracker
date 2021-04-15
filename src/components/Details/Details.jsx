@@ -17,15 +17,11 @@ const Details = ({ title}) => {
                                 <MoneyOff />
                             </Avatar>
                 <Typography style={{marginTop: '20px'}}>
-                    Try saying: Add income for $100in Category Salary for Monday ...
                     Changing what it says here!!
                 </Typography>
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <List />
-                        <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
-                        Disable elevation
-                        </Button>
                         <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
                                 <MoneyOff />
                             </Avatar>
