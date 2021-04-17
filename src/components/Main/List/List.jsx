@@ -33,8 +33,6 @@ const List = () => {
                             </IconButton>
                         </ListItemSecondaryAction>
                     </ListItem>
-                    <CardContent>
-                <Typography align='center' variant='h5'>Total Balance $100</Typography>
                 <Form />
                 </Slide>
                 <Doughnut data='DATA' />
