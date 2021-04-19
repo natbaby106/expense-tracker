@@ -27,6 +27,7 @@ const Details = ({ title}) => {
                             </Avatar>
                     </Grid>
                 </Grid>
+                <h3>{transaction.date}</h3>
                 </Slide>
                 <Doughnut data='DATA' />
             </CardContent>

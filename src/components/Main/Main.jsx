@@ -33,6 +33,7 @@ const Main = () => {
                         </Button>
                         <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
                                 <MoneyOff />
+                                <h3>{transaction.date}</h3>
                             </Avatar>
                     </Grid>
                 </Grid>
