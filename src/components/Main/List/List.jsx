@@ -21,13 +21,14 @@ const List = () => {
                     <h1>Monthly expenses</h1>
                     <ListItem>
                         <ListItemAvatar>
+                        <h3>{transaction.date}</h3>
                             <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
                                 <MoneyOff />
                             </Avatar>
                         </ListItemAvatar>
                         <ListItemText primary={transaction.category} secondary={`$${transaction.amount}- ${transaction.date}`} />
                         <ListItemSecondaryAction>
-                        <p>{transaction.category}</p>
+                        
                     </ListItem>
                 <Form />
                 </Slide>
