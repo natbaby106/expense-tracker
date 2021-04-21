@@ -28,9 +28,7 @@ const Main = () => {
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <List />
-                        <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
-                        Disable elevation
-                        </Button>
+                        
                         <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
                                 <MoneyOff />
                                 <h3>{transaction.date}</h3>

@@ -10,9 +10,6 @@ export const Provider = ({ children }) => {
     const [transactions, dispatch] = useReducer(contextReducer, initialState);
     const [users, dispatch] = useReducer(contextReducer, initialState);
 
-
-    console.log(transactions);
-
     // Action Creators 
     const deleteTransaction = (id) => dispatch({ type: 'DELETE_TRANSACTION', payload: id });
     const addTransaction = (transaction) => dispatch({ type: 'ADD_TRANSACTION', payload: transaction });

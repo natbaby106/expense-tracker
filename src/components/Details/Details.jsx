@@ -16,9 +16,13 @@ const Details = ({ title}) => {
                 <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
                                 <MoneyOff />
                             </Avatar>
+
                 <Typography style={{marginTop: '20px'}}>
                     Changing what it says here!!
                 </Typography>
+                <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
+                        Disable elevation
+                        </Button>
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <List />
