@@ -21,7 +21,7 @@ const Details = ({ title}) => {
                     Changing what it says here!!
                 </Typography>
                 <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
-                        Disable elevation
+                        Expenses
                         </Button>
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
