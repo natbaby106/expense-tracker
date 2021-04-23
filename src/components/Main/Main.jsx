@@ -46,10 +46,9 @@ const Main = () => {
                 </Typography>
                 
                 <Divider />
-                <Form />
                 <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
-                        Disable elevation
-                        </Button>
+                    Disable elevation
+                </Button>
             </CardContent>
         </Card>
     );

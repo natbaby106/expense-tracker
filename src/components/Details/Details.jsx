@@ -32,6 +32,9 @@ const Details = ({ title}) => {
                     </Grid>
                 </Grid>
                 <h3>{transaction.date}</h3>
+                <input type = "text" value = {this.state.data} 
+                    onChange = {this.updateState} />
+                <h4>{this.state.data}</h4>
                 </Slide>
                 <Doughnut data='DATA' />
             </CardContent>
