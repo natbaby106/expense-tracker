@@ -28,7 +28,11 @@ const Main = () => {
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <List />
-                        
+                        <form className={classes.root} noValidate autoComplete="off">
+                            <TextField id="standard-basic" label="Standard" />
+                            <TextField id="filled-basic" label="Filled" variant="filled" />
+                            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+                        </form>
                         <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense}>
                                 <MoneyOff />
                                 <h3>{transaction.date}</h3>
