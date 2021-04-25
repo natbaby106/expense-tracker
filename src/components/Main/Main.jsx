@@ -37,6 +37,19 @@ const Main = () => {
                                 <MoneyOff />
                                 <h3>{transaction.date}</h3>
                             </Avatar>
+                            <FormControl key={variable}>
+                  <Select
+                    name={variable}
+                    value={configVars[variable]}
+                    onChange={handleConfigVarChange(variable)}
+                  >
+                    {defaults.map(value => (
+                      <MenuItem key={value} value={value}>
+                        {value}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
                     </Grid>
                 </Grid>
             </CardContent>
