@@ -61,7 +61,17 @@ const Main = () => {
                     Changing what it says here!!
                     this is wh
                 </Typography>
-                
+                <FormControlLabel
+                    value="end"
+                    control={<Switch color="primary" />}
+                    label="End"
+                    labelPlacement="end"
+                    /><FormControlLabel
+                    value="end"
+                    control={<Switch color="primary" />}
+                    label="End"
+                    labelPlacement="end"
+                />
                 <Divider />
                 <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
                     Disable elevation
