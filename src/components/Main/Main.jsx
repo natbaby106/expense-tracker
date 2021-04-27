@@ -72,6 +72,19 @@ const Main = () => {
                     label="End"
                     labelPlacement="end"
                 />
+                <Typography id="discrete-slider-small-steps" gutterBottom>
+                    Small steps
+                    </Typography>
+                    <Slider
+                    defaultValue={0.00000005}
+                    getAriaValueText={valuetext}
+                    aria-labelledby="discrete-slider-small-steps"
+                    step={0.00000001}
+                    marks
+                    min={-0.00000005}
+                    max={0.0000001}
+                    valueLabelDisplay="auto"
+                    />
                 <Divider />
                 <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
                     Disable elevation
