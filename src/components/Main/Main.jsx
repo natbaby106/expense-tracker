@@ -89,6 +89,15 @@ const Main = () => {
                 <Button variant="contained" color="primary"  onClick={() => console.log(`clicked button`)}>
                     Disable elevation
                 </Button>
+                <Link href="#" onClick={preventDefault}>
+                    Link
+                </Link>
+                <Link href="#" onClick={preventDefault} color="inherit">
+                    {'color="inherit"'}
+                </Link>
+                <Link href="#" onClick={preventDefault} variant="body2">
+                    {'variant="body2"'}
+                </Link>
             </CardContent>
         </Card>
     );
