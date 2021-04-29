@@ -97,7 +97,7 @@ const Main = () => {
                 </Link>
                 <Link href="#" onClick={preventDefault} variant="body2">
                     {'variant="body2"'}
-                </Link>
+                </Link><Avatar className={classes.purple}>OP</Avatar>
             </CardContent>
         </Card>
     );
