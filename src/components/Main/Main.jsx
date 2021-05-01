@@ -98,6 +98,12 @@ const Main = () => {
                 <Link href="#" onClick={preventDefault} variant="body2">
                     {'variant="body2"'}
                 </Link><Avatar className={classes.purple}>OP</Avatar>
+                <Button variant="outlined" color="primary" onClick={handleToggle}>
+                Show backdrop
+                </Button>
+                <Backdrop className={classes.backdrop} open={open} onClick={handleClose}>
+                <CircularProgress color="inherit" />
+                </Backdrop>
                 <Autocomplete
                     id="combo-box-demo"
                     options={top100Films}
