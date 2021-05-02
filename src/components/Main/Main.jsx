@@ -103,6 +103,21 @@ const Main = () => {
                 </Button>
                 <Backdrop className={classes.backdrop} open={open} onClick={handleClose}>
                 <CircularProgress color="inherit" />
+                <form className={classes.root} noValidate autoComplete="off">
+  <TextField id="standard-secondary" label="Standard secondary" color="secondary" />
+  <TextField
+    id="filled-secondary"
+    label="Filled secondary"
+    variant="filled"
+    color="secondary"
+  />
+  <TextField
+    id="outlined-secondary"
+    label="Outlined secondary"
+    variant="outlined"
+    color="secondary"
+  />
+</form>
                 </Backdrop>
                 <Autocomplete
                     id="combo-box-demo"
