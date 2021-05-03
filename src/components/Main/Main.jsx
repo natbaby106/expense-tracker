@@ -118,6 +118,29 @@ const Main = () => {
     color="secondary"
   />
 </form>
+<Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-label="Expand"
+          aria-controls="additional-actions2-content"
+          id="additional-actions2-header"
+        >
+          <FormControlLabel
+            aria-label="Acknowledge"
+            onClick={(event) => event.stopPropagation()}
+            onFocus={(event) => event.stopPropagation()}
+            control={<Checkbox />}
+            label="I acknowledge that I should stop the focus event propagation"
+          />
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography color="textSecondary">
+            The focus event of the nested action will propagate up and also focus the accordion
+            unless you explicitly stop it.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
                 </Backdrop>
                 <Autocomplete
                     id="combo-box-demo"
